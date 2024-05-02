@@ -22,7 +22,7 @@ function Welcome() {
         if (user) {
             return (
                 <TextContent>
-                    <p>Wlcome to logiclane Health Tool.</p>
+                    <p>Welcome to logiclane Health Tool.</p>
                     {/* <p>
                         AWS HealthScribe is a HIPAA-eligible service empowering healthcare software vendors to build
                         clinical applications that automatically generate clinical notes by analyzing patient-clinician
