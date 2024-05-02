@@ -74,51 +74,51 @@ export default function TopNav() {
 //   }
 
   // App appTheme dropdown
-  const utilVisual: TopNavigationProps.MenuDropdownUtility = {
-    type: "menu-dropdown",
-    iconName: "settings",
-    ariaLabel: "Settings",
-    title: "Settings",
-    items: [
-      {
-        id: "appTheme",
-        text: "Theme",
-        items: [
-          {
-            id: "appTheme.light",
-            text: "Light",
-            disabled: appTheme.color === "appTheme.light",
-            disabledReason: "Currently selected",
-          },
-          {
-            id: "appTheme.dark",
-            text: "Dark",
-            disabled: appTheme.color === "appTheme.dark",
-            disabledReason: "Currently selected",
-          },
-        ],
-      },
-      {
-        id: "density",
-        text: "Density",
-        items: [
-          {
-            id: "density.comfortable",
-            text: "Comfortable",
-            disabled: appTheme.density === "density.comfortable",
-            disabledReason: "Currently selected",
-          },
-          {
-            id: "density.compact",
-            text: "Compact",
-            disabled: appTheme.density === "density.compact",
-            disabledReason: "Currently selected",
-          },
-        ],
-      },
-    ],
-    onItemClick: (e) => handleUtilVisualClick(e),
-  };
+//   const utilVisual: TopNavigationProps.MenuDropdownUtility = {
+//     type: "menu-dropdown",
+//     iconName: "settings",
+//     ariaLabel: "Settings",
+//     title: "Settings",
+//     items: [
+//       {
+//         id: "appTheme",
+//         text: "Theme",
+//         items: [
+//           {
+//             id: "appTheme.light",
+//             text: "Light",
+//             disabled: appTheme.color === "appTheme.light",
+//             disabledReason: "Currently selected",
+//           },
+//           {
+//             id: "appTheme.dark",
+//             text: "Dark",
+//             disabled: appTheme.color === "appTheme.dark",
+//             disabledReason: "Currently selected",
+//           },
+//         ],
+//       },
+//       {
+//         id: "density",
+//         text: "Density",
+//         items: [
+//           {
+//             id: "density.comfortable",
+//             text: "Comfortable",
+//             disabled: appTheme.density === "density.comfortable",
+//             disabledReason: "Currently selected",
+//           },
+//           {
+//             id: "density.compact",
+//             text: "Compact",
+//             disabled: appTheme.density === "density.compact",
+//             disabledReason: "Currently selected",
+//           },
+//         ],
+//       },
+//     ],
+//     onItemClick: (e) => handleUtilVisualClick(e),
+//   };
 
   // User appAuth dropdown (if appAuth) else sign-in
   const utilUser:
@@ -138,7 +138,7 @@ export default function TopNav() {
         onClick: () => setAuthVisible(true),
       };
 
-  const navUtils = [utilVisual, utilUser];
+  const navUtils = [ utilUser];
 
   return (
     <>
