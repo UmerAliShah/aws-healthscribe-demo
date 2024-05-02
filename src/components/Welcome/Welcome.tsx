@@ -22,8 +22,8 @@ function Welcome() {
         if (user) {
             return (
                 <TextContent>
-                    <p>This sample ReactJS-based web app shows the art of the possible in using AWS HealthScribe.</p>
-                    <p>
+                    <p>Wlcome to logiclane Health Tool.</p>
+                    {/* <p>
                         AWS HealthScribe is a HIPAA-eligible service empowering healthcare software vendors to build
                         clinical applications that automatically generate clinical notes by analyzing patient-clinician
                         conversations.
@@ -61,7 +61,7 @@ function Welcome() {
                             </Link>
                             .
                         </li>
-                    </ul>
+                    </ul> */}
                 </TextContent>
             );
         } else {
@@ -72,8 +72,8 @@ function Welcome() {
     function Footer() {
         return (
             <Box textAlign="center" color="text-body-secondary" fontSize="body-s">
-                <p>Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
-                <p>
+                <p>Copyright logiclane, Inc. or its affiliates. All Rights Reserved.</p>
+                {/* <p>
                     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
                     associated documentation files (the &quot;Software&quot;), to deal in the Software without
                     restriction, including without limitation the rights to use, copy, modify, merge, publish,
@@ -86,13 +86,13 @@ function Welcome() {
                     NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
                     OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
                     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-                </p>
+                </p> */}
             </Box>
         );
     }
 
     return (
-        <ContentLayout header={<Header variant="h2">Demo Application Experience powered by AWS HealthScribe</Header>}>
+        <ContentLayout header={<Header variant="h2">Demo Application Experience powered by Logiclane</Header>}>
             <Container footer={<Footer />}>
                 <Content />
             </Container>
