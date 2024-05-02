@@ -144,8 +144,7 @@ export default function TopNav() {
       <TopNavigation
         identity={{
           href: "/",
-          title:
-            "<div><img className='h-full w-[180px]' src='/logic-lane-logo.png' /></div>",
+          logo: { src: "/logic-lane-logo.png", alt: "logo" },
         }}
         utilities={navUtils}
       />
