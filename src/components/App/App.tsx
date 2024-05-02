@@ -10,7 +10,7 @@ import Flashbar from '@cloudscape-design/components/flashbar';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import SideNav from '@/components/SideNav';
 import SuspenseLoader from '@/components/SuspenseLoader';
-import TopNav from '@/components/TopNav/TopNav';
+import TopNav from '@/components/TopNav';
 import Welcome from '@/components/Welcome';
 import { useAuthContext } from '@/store/auth';
 import { useNotificationsContext } from '@/store/notifications';
