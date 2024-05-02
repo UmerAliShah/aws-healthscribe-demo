@@ -1,0 +1,93 @@
+@import './assets/css/pagination.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --Popins: Poppins, sans-serif;
+  --Blue-400: #53B1FD;
+  --Blue-800: #1849A9;
+  --Error-25: #FFFBFA;
+  --Error-50: #FEF3F2;
+  --Error-70: #B42318;
+  --Error-300: #FDA29B;
+  --Error-600: #D92D20;
+  --Error-700: #B42318;
+  --Primary-25: #F5FAFF;
+  --Primary-50: #EFF8FF;
+  --Primary-100: #D1E9FF;
+  --Primary-400: #53B1FD;
+  --Primary-700: #175CD3;
+  --Primary-500: #2E90FA;
+  --Primary-600: #1570EF;
+  --Primary-800: #1849A9;
+  --Gray-25: #FCFCFD;
+  --Gray-50: #F9FAFB;
+  --Gray-100: #F2F4F7;
+  --Gray-200: #EAECF0;
+  --Gray-300: #D0D5DD;
+  --Gray-400: #98A2B3;
+  --Gray-500: #667085;
+  --Gray-700: #344054;
+  --Gray-800: #1D2939;
+  --Gray-900: #101828;
+  --Indigo-50: #EEF4FF;
+  --Indigo-700: #3538CD;
+  --Orange-100: #FDEAD7;
+  --Orange-700: #B93815;
+  --Success-300: #6CE9A6;
+  --Success-50: #ECFDF3;
+  --Success-400: #32D583;
+  --Success-700: #027A48;
+  --White: #FFFFFF;
+  --Violet-100: #ECE9FE;
+  --Violet-700: #6927DA;
+  --Warning-50: #FFFAEB;
+  --Warning-100: #FEF0C7;
+  --Warning-300: #FEC84B;
+  --Warning-700: #B54708;
+  --Rose-300: #FEA3B4;
+  --Rose-700: #C01048;
+  --Rose-100: #FFE4E8;
+  --Shadow-xm: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  --Primary-Hover: #2E90FA;
+
+  /**
+  Fonts
+   */
+
+  --fs-30: 30px
+}
+
+@layer component {
+  .btn-primary {
+    @apply !bg-primary-400 !text-white-base !ring-1 !ring-primary-400 justify-center hover:bg-primary-700 hover:text-white-base !border-0 !flex !items-center;
+  }
+  .table-row-even{
+    @apply bg-[#FFFFFF] border border-[#e9ebed]
+  }
+  .table-row-odd{
+    @apply bg-[#F8F8F8] border border-[#e9ebed]
+  }
+}
+.awsui-context-content-header>div{
+  background-color: var(--Primary-100) !important;
+}
+.breadcumbs a span{
+  color: var(--Primary-500);
+  
+}
+.breadcumbs span{
+  color: rgb(133, 133, 133);
+}
+.nav-user-icon button span{
+  color: white !important;
+}
+.ant-table-cell{
+  padding: 5px 10px !important;
+}
+.awsui-context-content-header{
+  background-color: var(--Primary-100) !important;
+}
