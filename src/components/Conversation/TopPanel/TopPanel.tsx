@@ -216,6 +216,7 @@ export default function TopPanel({
         return (
             <Header
                 variant="h3"
+                className='primary-color-header'
                 actions={
                     <SpaceBetween direction="horizontal" size="xs">
                         <ButtonDropdown

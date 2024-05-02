@@ -138,7 +138,7 @@ export default function TopNav() {
             <TopNavigation
                 identity={{
                     href: '/',
-                    title: 'Amazon Web Services',
+                    title: <div><img className='h-full w-[180px]' src='/logic-lane-logo.png' /></div>,
                 }}
                 utilities={navUtils}
             />

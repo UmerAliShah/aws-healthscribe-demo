@@ -26,42 +26,42 @@ export default function SideNav({ activeHref }: SideNavProps) {
             href: '/new',
         },
         { type: 'divider' },
-        {
-            type: 'link',
-            text: 'Generate Audio',
-            href: '/generate',
-        },
-        { type: 'divider' },
-        {
-            type: 'link',
-            text: 'Settings',
-            href: '/settings',
-        },
-        { type: 'divider' },
-        {
-            type: 'link',
-            text: 'AWS HealthScribe',
-            href: 'https://aws.amazon.com/healthscribe',
-            external: true,
-        },
-        {
-            type: 'link',
-            text: 'AWS for Health',
-            href: 'https://aws.amazon.com/health',
-            external: true,
-        },
-        {
-            type: 'link',
-            text: 'Amazon Web Services',
-            href: 'https://aws.amazon.com',
-            external: true,
-        },
+        // {
+        //     type: 'link',
+        //     text: 'Generate Audio',
+        //     href: '/generate',
+        // },
+        // { type: 'divider' },
+        // {
+        //     type: 'link',
+        //     text: 'Settings',
+        //     href: '/settings',
+        // },
+        // { type: 'divider' },
+        // {
+        //     type: 'link',
+        //     text: 'AWS HealthScribe',
+        //     href: 'https://aws.amazon.com/healthscribe',
+        //     external: true,
+        // },
+        // {
+        //     type: 'link',
+        //     text: 'AWS for Health',
+        //     href: 'https://aws.amazon.com/health',
+        //     external: true,
+        // },
+        // {
+        //     type: 'link',
+        //     text: 'Amazon Web Services',
+        //     href: 'https://aws.amazon.com',
+        //     external: true,
+        // },
     ];
 
     return (
         <SideNavigation
             activeHref={activeHref}
-            header={{ text: 'AWS HealthScribe', href: '/' }}
+            header={{ text: 'Health Lake', href: '/' }}
             items={sideNavItems}
             onFollow={(e) => {
                 e.preventDefault();
