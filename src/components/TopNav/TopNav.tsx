@@ -31,19 +31,19 @@ export default function TopNav() {
   const [authVisible, setAuthVisible] = useState(false); // authentication modal visibility
 
   // Set app appTheme
-  useEffect(() => {
-    if (appTheme.color === "appTheme.light") {
-      applyMode(Mode.Light);
-    } else if (appTheme.color === "appTheme.dark") {
-      applyMode(Mode.Dark);
-    }
+//   useEffect(() => {
+//     if (appTheme.color === "appTheme.light") {
+//       applyMode(Mode.Light);
+//     } else if (appTheme.color === "appTheme.dark") {
+//       applyMode(Mode.Dark);
+//     }
 
-    if (appTheme.density === "density.comfortable") {
-      applyDensity(Density.Comfortable);
-    } else if (appTheme.density === "density.compact") {
-      applyDensity(Density.Compact);
-    }
-  }, [appTheme]);
+//     if (appTheme.density === "density.comfortable") {
+//       applyDensity(Density.Comfortable);
+//     } else if (appTheme.density === "density.compact") {
+//       applyDensity(Density.Compact);
+//     }
+//   }, [appTheme]);
 
   // When user authenticates, close authentication modal window
   useEffect(() => {
@@ -54,24 +54,24 @@ export default function TopNav() {
   }, [isUserAuthenticated]);
 
   // Change visualization
-  function handleUtilVisualClick(e: TopNavClick) {
-    switch (e.detail.id) {
-      case "appTheme.light":
-        setAppThemeColor("appTheme.light");
-        break;
-      case "appTheme.dark":
-        setAppThemeColor("appTheme.dark");
-        break;
-      case "density.comfortable":
-        setAppThemeDensity("density.comfortable");
-        break;
-      case "density.compact":
-        setAppThemeDensity("density.compact");
-        break;
-      default:
-        break;
-    }
-  }
+//   function handleUtilVisualClick(e: TopNavClick) {
+//     switch (e.detail.id) {
+//       case "appTheme.light":
+//         setAppThemeColor("appTheme.light");
+//         break;
+//       case "appTheme.dark":
+//         setAppThemeColor("appTheme.dark");
+//         break;
+//       case "density.comfortable":
+//         setAppThemeDensity("density.comfortable");
+//         break;
+//       case "density.compact":
+//         setAppThemeDensity("density.compact");
+//         break;
+//       default:
+//         break;
+//     }
+//   }
 
   // App appTheme dropdown
   const utilVisual: TopNavigationProps.MenuDropdownUtility = {
