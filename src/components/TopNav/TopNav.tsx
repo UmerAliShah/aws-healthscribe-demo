@@ -17,11 +17,11 @@ import { useAuthContext } from "@/store/auth";
 
 import "./TopNav.css";
 
-// type TopNavClick = {
-//   detail: {
-//     id: string,
-//   },
-// };
+type TopNavClick = {
+  detail: {
+    id: string;
+  };
+};
 
 export default function TopNav() {
   const { isUserAuthenticated, user, signOut } = useAuthContext();
@@ -121,7 +121,9 @@ export default function TopNav() {
   //   };
 
   // User appAuth dropdown (if appAuth) else sign-in
-  const utilUser = isUserAuthenticated
+  const utilUser:
+    | TopNavigationProps.ButtonUtility
+    | TopNavigationProps.MenuDropdownUtility = isUserAuthenticated
     ? {
         type: "menu-dropdown",
         text: user?.signInDetails?.loginId || user?.username,
