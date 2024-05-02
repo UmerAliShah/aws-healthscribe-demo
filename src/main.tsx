@@ -10,7 +10,7 @@ import '@cloudscape-design/global-styles/index.css';
 import { Authenticator } from '@aws-amplify/ui-react';
 import ReactDOM from 'react-dom/client';
 import { Toaster } from 'react-hot-toast';
-
+import './index.css';
 import AppSettingsContextProvider from '@/store/appSettings';
 import AppThemeContextProvider from '@/store/appTheme';
 import AuthContextProvider from '@/store/auth';
