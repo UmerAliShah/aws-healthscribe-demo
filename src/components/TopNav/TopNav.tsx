@@ -147,7 +147,7 @@ export default function TopNav() {
         identity={{
           href: "/",
           logo: {
-            className = "h-full w-[180px]",
+            size: "large",
             src: "/logic-lane-logo.png",
             alt: "logo",
           },
