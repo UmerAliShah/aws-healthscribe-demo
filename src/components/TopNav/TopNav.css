@@ -4,3 +4,6 @@
     top: 0;
     z-index: 1999;
 }
+#appTopNav header{
+    background-color: var(--Primary-400) !important;
+}
