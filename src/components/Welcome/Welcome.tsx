@@ -3,7 +3,7 @@
 import React, { memo } from 'react';
 
 import { useNavigate } from 'react-router-dom';
-
+import './welcome.css';
 import Alert from '@cloudscape-design/components/alert';
 import Box from '@cloudscape-design/components/box';
 import Container from '@cloudscape-design/components/container';
@@ -22,7 +22,7 @@ function Welcome() {
         if (user) {
             return (
                 <TextContent>
-                    <p>Welcome to logiclane Health Tool.</p>
+                    <p className="text">Welcome to logiclane Health Tool.</p>
                     {/* <p>
                         AWS HealthScribe is a HIPAA-eligible service empowering healthcare software vendors to build
                         clinical applications that automatically generate clinical notes by analyzing patient-clinician
@@ -92,7 +92,7 @@ function Welcome() {
     }
 
     return (
-        <ContentLayout header={<Header variant="h2">Demo Application Experience powered by Logiclane</Header>}>
+        <ContentLayout header={<div className="text" variant="h2">Demo Application Experience powered by Logiclane</div>}>
             <Container footer={<Footer />}>
                 <Content />
             </Container>
