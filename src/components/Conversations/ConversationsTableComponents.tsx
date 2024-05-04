@@ -206,7 +206,7 @@ function TableHeader({
       />
       <Header
         variant="awsui-h1-sticky"
-        counter={headerCounterText}
+        // counter={headerCounterText}
         actions={
           <TableHeaderActions
             setSearchParams={setSearchParams}
@@ -216,7 +216,9 @@ function TableHeader({
           />
         }
       >
-        <h2 style={{ color: '#000000' }}> Conversations </h2>
+        <h2 style={{ color: "#000000" }}>
+          Conversations <span>{headerCounterText}</span>
+        </h2>
       </Header>
       <Form>
         <Grid gridDefinition={[{ colspan: 5 }, { colspan: 3 }]}>
