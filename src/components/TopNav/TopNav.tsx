@@ -146,7 +146,7 @@ export default function TopNav() {
       <TopNavigation
         identity={{
           href: "/",
-          title: "Logic lane",
+          title: "LogicLane Health App",
         }}
         utilities={navUtils}
       />

@@ -92,7 +92,7 @@ function Welcome() {
     }
 
     return (
-        <ContentLayout header={<div className="text">Demo Application Experience powered by Logiclane</div>}>
+        <ContentLayout header={<h2 className="text">Demo Application Experience powered by Logiclane</h2>}>
             <Container footer={<Footer />}>
                 <Content />
             </Container>

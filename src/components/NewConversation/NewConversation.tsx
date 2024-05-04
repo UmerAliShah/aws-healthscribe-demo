@@ -249,7 +249,7 @@ export default function NewConversation() {
           variant="awsui-h1-sticky"
           className="primary-color-header"
         >
-          <span style={{ color: '#FFFFFF' }}> New Conversation </span>
+          <h2 style={{ color: black }}> New Conversation </h2>
         </Header>
       }
     >
