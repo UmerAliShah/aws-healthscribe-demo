@@ -61,7 +61,7 @@ export default function SideNav({ activeHref }: SideNavProps) {
     return (
         <SideNavigation
             activeHref={activeHref}
-            header={{ text: 'Health Lake', href: '/' }}
+            header={{ text: 'Logic Lane', href: '/' }}
             items={sideNavItems}
             onFollow={(e) => {
                 e.preventDefault();

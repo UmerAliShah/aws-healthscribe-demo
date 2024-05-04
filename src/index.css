@@ -7,7 +7,7 @@
 
 :root {
   --Popins: Poppins, sans-serif;
-  --Blue-400: #53B1FD;
+  --Blue-400: #14B8A6;
   --Blue-800: #1849A9;
   --Error-25: #FFFBFA;
   --Error-50: #FEF3F2;
@@ -17,7 +17,7 @@
   --Error-700: #B42318;
   --Primary-25: #F5FAFF;
   --Primary-50: #EFF8FF;
-  --Primary-100: #D1E9FF;
+  --Primary-100: #99F6E4;
   --Primary-400: #53B1FD;
   --Primary-700: #175CD3;
   --Primary-500: #2E90FA;
@@ -80,7 +80,7 @@
   
 }
 .breadcumbs span{
-  color: rgb(133, 133, 133);
+  color: white;
 }
 .nav-user-icon button span{
   color: white !important;

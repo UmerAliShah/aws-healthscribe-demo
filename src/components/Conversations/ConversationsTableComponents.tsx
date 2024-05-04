@@ -191,7 +191,7 @@ function TableHeader({ selectedHealthScribeJob, headerCounterText, listHealthScr
             <Form>
                 <Grid gridDefinition={[{ colspan: 5 }, { colspan: 3 }]}>
                     <Input
-                        placeholder="HealthScribe Job Name"
+                        placeholder="Scribe Name"
                         value={searchParams?.JobNameContains || ''}
                         onChange={({ detail }) => handleInputChange('JobNameContains', detail.value)}
                     />
