@@ -216,7 +216,7 @@ function TableHeader({
           />
         }
       >
-        <h2 style={{ color: black }}> Conversations </h2>
+        <h2 style={{ color: '#000000' }}> Conversations </h2>
       </Header>
       <Form>
         <Grid gridDefinition={[{ colspan: 5 }, { colspan: 3 }]}>
