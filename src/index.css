@@ -1,14 +1,11 @@
-/* @import './assets/css/pagination.css'; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 :root {
   --Popins: Poppins, sans-serif;
-  --Blue-400: #14B8A6;
-  --Blue-800: #1849A9;
+  --Blue-400: #99F6E4; /* Light Blue */
+  --Blue-800: #14B8A6; /* Dark Blue */
   --Error-25: #FFFBFA;
   --Error-50: #FEF3F2;
   --Error-70: #B42318;
@@ -17,12 +14,12 @@
   --Error-700: #B42318;
   --Primary-25: #F5FAFF;
   --Primary-50: #EFF8FF;
-  --Primary-100: #99F6E4;
-  --Primary-400: #53B1FD;
+  --Primary-100: #99F6E4; /* Light Color */
+  --Primary-400: #14B8A6; /* Dark Color */
   --Primary-700: #175CD3;
   --Primary-500: #2E90FA;
   --Primary-600: #1570EF;
-  --Primary-800: #1849A9;
+  --Primary-800: #14B8A6; /* Dark Color */
   --Gray-25: #FCFCFD;
   --Gray-50: #F9FAFB;
   --Gray-100: #F2F4F7;
@@ -80,7 +77,7 @@
   
 }
 .breadcumbs span{
-  color: white;
+  color: rgb(133, 133, 133);
 }
 .nav-user-icon button span{
   color: white !important;
